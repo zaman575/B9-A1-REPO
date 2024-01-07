@@ -1,14 +1,15 @@
 body{
     font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .container{
-    max-width: 65%;
+    max-width: 80%;
     height: 600px;
     margin: 0 auto;
     background-image: linear-gradient(180deg, #14282f 0%, rgba(89, 128, 140, 0) 100%),url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     border-radius: 16px; 
 }
 
@@ -17,7 +18,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top:200px ;
+    padding-top:155px ;
 }
 
 .new-year-title{
@@ -37,4 +38,52 @@ body{
     font-weight: 700;
     margin-top: 0;
     padding-top: 5px;
+}
+
+section{
+    max-width: 700px;
+    max-height: 400px;
+    margin: 0px auto; 
+
+}
+
+.discount-amount{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 80px;
+font-weight: 700;
+margin: 0;
+padding-bottom: 20px;
+}
+
+.discount-value{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.discount-catgry{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.newyear-greetings{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 400px;
+    height: 300px ;
+    background-image: url("../images/New-Year-Photo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 30px auto;
 }
