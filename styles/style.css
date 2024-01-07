@@ -1,13 +1,21 @@
 body{
+    margin: 0;
+    padding: 0;
     font-family: 'Merriweather', serif;
     font-family: 'Inter', sans-serif;
 }
 
+/* header banner style */
+.container-header{
+    
+}
+
 .container{
-    max-width: 80%;
+    width:1500px;
     height: 600px;
     margin: 0 auto;
-    background-image: linear-gradient(180deg, #14282f 0%, rgba(89, 128, 140, 0) 100%),url('../images/Banner\ Image.png');
+    margin-bottom: 100px;
+    background-image: url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 16px; 
@@ -18,7 +26,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top:155px ;
+    padding-top:155px;
 }
 
 .new-year-title{
@@ -40,13 +48,14 @@ body{
     padding-top: 5px;
 }
 
-section{
+/* section{
     max-width: 700px;
     max-height: 400px;
     margin: 0px auto; 
 
-}
+} */
 
+/* discount part style */
 .discount-amount{
 color: #F00;
 text-align: center;
@@ -76,10 +85,11 @@ padding-bottom: 20px;
     padding-top: 10px;
 }
 
+/* greeting part style */
 .newyear-greetings{
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     width: 400px;
     height: 300px ;
     background-image: url("../images/New-Year-Photo.png");
@@ -87,3 +97,105 @@ padding-bottom: 20px;
     background-repeat: no-repeat;
     margin: 30px auto;
 }
+
+.newyear-party-heading{
+    width: 1500px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 16px; 
+}
+
+.container-1{
+    width: 1500px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 16px; 
+    padding-top: 100px;
+}
+
+.new-year-heading-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:155px;
+}
+
+/* .new-year-party-title{
+color: #FFF;
+font-family: Merriweather;
+font-size: 30px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; 
+} */
+
+.new-year-party{
+    max-width: 500px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+.new-year-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 600px;
+    padding-left: 70px;
+}
+
+.party-joinig{
+    margin-left: 80px;
+    background: none;
+    border: none;
+    color: #EDDFF6;
+    
+}
+
+/* Place style */
+
+.pary-place{
+    width: 1500px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 16px; 
+    background-color:rgba(255, 0, 0, 0.10);
+    margin-top: 100px;
+    
+}
+
+.place-date-time{
+    padding-top: 180px;
+    text-align: center;
+    font-size: 30px;
+}
+.color{
+    color: red;
+}
+
+.BTN-LAST{
+    border-radius: 5px;
+    background: #F00;
+    border: none;
+    font-size: 30px ;
+    padding: 15px;
+}
+
