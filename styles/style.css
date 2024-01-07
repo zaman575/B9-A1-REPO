@@ -199,3 +199,73 @@ line-height: 88px;
     padding: 15px;
 }
 
+/* offer part design */
+
+.Comming-soon-2024{
+    width: 1500px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 16px; 
+    margin-top: 100px;
+    display: flex;
+    gap: 15px;
+    
+}
+
+.best-offer{
+color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+
+.comming-title{
+color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.comming-description{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; 
+}
+
+.circle-image{
+    display: flex;
+    width:500px;
+    height: 569px;
+    margin: 0 auto;
+    background-image: url('../images/Ellipse1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 15px solid red;
+}
+.year-2024{
+color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+
+.description-2024{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.comming-description{
+width: 400px;
+height: 130PX;
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
