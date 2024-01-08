@@ -438,36 +438,34 @@ line-height: normal;
 
 /* footer style */
 
-footer{
-    width: 100%;
-    background-color: black;
-    margin-top: 100px;
-    justify-content: center;
-    align-items: center;
+.footer{
+width: 100%;
+display: flex;
+gap: 10px;
+margin-top: 100px;
+background-color: #070211;
 }
+
+.col-1{
+    width: 400px;
+    text-align: left;
+    font-size: 24px;
+    color: #EDDFF6;
+}
+
+.col-2{
+    width: 400px;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 200px;
+    color: #EDDFF6;
+}
+
 
 .hr{
     opacity: 0.5;
 }
 
-.Address{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    display: block;
-    flex-direction: column;
-    padding-top: 60px;
-    
-}
-
-.add-text{
-    width: 300px;
-    margin: 0;
-    font-size: 25px ;
-    padding-left: 50px;
-    margin-top: 10px;
-}
 
 .phn-number{
     color: #FFF;
