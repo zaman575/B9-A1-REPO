@@ -12,8 +12,8 @@ body{
 
 .container{
     width:1500px;
-    height: 600px;
-    margin: 0 auto;
+    height:600px;
+    margin:0 auto;
     margin-bottom: 100px;
     background-image: url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ padding-bottom: 20px;
 
 .newyear-party-heading{
     width: 1500px;
-    height: 300px;
+    height:300px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -208,7 +208,7 @@ line-height: 88px;
     border-radius: 16px; 
     margin-top: 100px;
     display: flex;
-    gap: 15px;
+    gap: 25px;
     
 }
 
@@ -217,6 +217,8 @@ color: #F00;
 font-family: Inter;
 font-size: 24px;
 font-weight: 500;
+margin: 0;
+
 }
  /* comming soong style */
 .comming-title{
@@ -224,35 +226,34 @@ color: #070211;
 font-family: Merriweather;
 font-size: 48px;
 font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
-margin-top: 100px;
+margin-top: 20px;
+padding-top: ;
 }
 
 .comming-description{
-color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px; 
-}
+    width: 400px;
+    height: 130PX;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    }
 
 .circle-image{
-    display: flex;
-    width:500px;
-    height: 569px;
-    margin: 0 auto;
-    background-image: url('../images/Ellipse1.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    border: 15px solid red;
+    padding: 10px;
+}
+
+.image-ellips{
+    border: 25px solid red;
+    padding: 35px;
+    border-radius: 100%;
 }
 .year-2024{
 color: #F00;
 font-family: Inter;
 font-size: 48px;
 font-weight: 700;
+margin-top: 0px;
 }
 
 .description-2024{
@@ -262,13 +263,10 @@ font-weight: 700;
     font-weight: 400;
 }
 
-.comming-description{
-width: 400px;
-height: 130PX;
-color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
+
+.new-year-image-last{
+    margin-top: 20px;
+    padding-top: 170px;
 }
 
 /* holiday secgion style */
@@ -283,18 +281,18 @@ font-weight: 400;
 }
 
 .holiday-title{
-color: #070211;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
 }
 
 .holiday-high{
-text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
 }
 
 .holiday-color{
@@ -311,15 +309,16 @@ font-weight: 900;
     
 }
 
-.discount-50{
+.discount-50{ 
     width:1500px;
     height: 600px;
     margin: 0 auto;
     margin-top: 100px;
-    display: block;
+    display:inline;
+    margin-left: 2200px;
 }
 
-.image-wow{
+/* .image-wow{
     width: 400px;
     height: 300px ;
 
@@ -332,7 +331,58 @@ font-weight: 900;
 .image-girl-wow{
 
 }
+*/
 
 .red-div{
+display: block;
+margin-top: 0;
+margin-left: 2400px;
+}
 
+/* awosme gift style */
+
+.awsome-gift{
+    width:1500px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: block;
+    text-align: left;
+}
+
+.gift{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.awsome{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.awsoem-text{
+    margin-top: 2px;
+    width: 1050px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+}
+
+/* portfolio image style */
+
+.portfolio-image{
+    max-width:1500px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top:100px;
+    display:flex;
+    flex-direction:;
+    
 }
